@@ -1,0 +1,88 @@
+#caixa {
+
+padding: 60px 0;
+border-bottom: 1px solid #e5e5e5;
+}
+.titulo-sobre {
+
+font-family: Helvética;
+letter-spacing: 1px;
+}
+
+.navbar-light .navbar-toggler {
+
+color: rgba(0, 0, 0, 5);
+border-color: rgba(255,255,255,.1);
+}
+
+
+
+
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+h4  {
+
+font-size: 2em;
+
+}
+
+
+ }
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+h4, .titulo-sobre {
+
+font-size: 2em;
+
+}
+
+
+ }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+h4 {
+
+font-size: 2.5em;
+
+}
+
+
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+h4 {
+
+font-size: 3em;
+
+}
+.card-title, .display-4  {
+
+font-size: 2.8em;
+
+}
+
+
+
+
+ }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+h4 {
+
+font-size: 4em;
+
+}
+
+.card-title {
+
+font-size: 3.5em;
+
+}
+
+
+ }
